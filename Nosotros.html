@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Historia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #333;
+        }
+
+        h1 {
+            color: #ffa500;
+            font-size: 2.5rem;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+            color: #666;
+            max-width: 800px; /* Max width for paragraphs */
+            text-align: center; /* Center the paragraph text */
+        }
+
+        /* Sección para la historia */
+        .history {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .history img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px; /* Añadir bordes redondeados a las imágenes */
+        }
+
+        .photo-title {
+            color: #ffa500; /* Color anaranjado */
+            font-size: 1.5rem; /* Tamaño de fuente para el título de la foto */
+            margin: 10px 0;
+        }
+
+        /* Logo en la parte superior */
+        .logo {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            max-width: 200px;
+            height: auto;
+        }
+
+        /* Flecha en la parte inferior */
+        .back-arrow {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #ffa500;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .back-arrow a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .back-arrow a:hover {
+            background-color: #ff7700;
+        }
+
+        /* Sección para el video */
+        .video-container {
+            margin: 40px 0;
+            text-align: center;
+        }
+
+        /* Responsividad para teléfonos */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .back-arrow {
+                padding: 8px 15px;
+            }
+
+            .back-arrow a {
+                font-size: 1rem;
+            }
+
+            .video-container iframe {
+                width: 100%;
+                height: 250px; /* Altura ajustada para móviles */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="logo">
+        <img src="https://i.ibb.co/xHfcF2R/logo.png" alt="Logo de Barberena Bike Race">
+    </div>
+
+    <h1>Nuestra Historia</h1>
+
+    <div class="history">
+        <p>
+            En Barberena Bike Race, comenzamos como un pequeño grupo de ciclistas apasionados que querían compartir nuestra pasión por el deporte con la comunidad. Desde 2010, hemos crecido hasta convertirnos en uno de los eventos más esperados de la región.
+        </p>
+        <div>
+            <p class="photo-title">Nuestra Primera Carrera</p>
+            <img src="https://i.ibb.co/Nt5KxB9/nosotros0.jpg" alt="Imagen de nuestra primera carrera">
+        </div>
+        <p>
+            Nuestra primera carrera tuvo lugar en un pequeño circuito en las montañas cercanas. Con el tiempo, más y más personas se unieron, convirtiéndolo en una experiencia inolvidable cada año.
+        </p>
+        <div>
+            <p class="photo-title">2023</p>
+            <img src="https://i.ibb.co/cbcgLfW/Nosotros1-min.jpg" alt="Participantes de la carrera">
+        </div>
+        <p>
+            Ahora, con miles de participantes y espectadores, Barberena Bike Race sigue siendo fiel a sus raíces: una celebración del ciclismo, la naturaleza y la camaradería.
+        </p>
+        <div>
+            <p class="photo-title">2024</p>
+            <img src="https://i.ibb.co/87S2VK4/Nosotros2-min.jpg" alt="Celebración en la carrera">
+        </div>
+    </div>
+
+    <!-- Sección para el video de Facebook -->
+    <div class="video-container">
+        <h2>Mira nuestro video</h2>
+        <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fduroalpedalgt%2Fvideos%2F2018011525301576%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+    </div>
+
+    <div class="back-arrow">
+        <a href="index.html">← Regresar al inicio</a>
+    </div>
+
+</body>
+</html>
